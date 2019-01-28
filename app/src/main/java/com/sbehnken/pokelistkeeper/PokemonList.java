@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class AnimalListActivity extends AppCompatActivity implements MyRecyclerViewAdapter.ItemClickListener {
+public class PokemonList extends AppCompatActivity implements MyRecyclerViewAdapter.ItemClickListener {
 
         MyRecyclerViewAdapter adapter;
 

@@ -22,7 +22,7 @@
 
             </intent-filter>
         </activity>
-        <activity android:name="com.sbehnken.pokelistkeeper.AnimalListActivity"></activity>
+        <activity android:name="com.sbehnken.pokelistkeeper.PokemonList"></activity>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mStartOverlayButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AnimalListActivity.class));
+                startActivity(new Intent(MainActivity.this, PokemonList.class));
             }
         });
 
