@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
     private static Retrofit instace;
 
-    public static Retrofit getInstace() {
+    public static Retrofit getInstance() {
         if (instace == null)
             instace = new Retrofit.Builder().baseUrl("https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/")
                     .addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).build();
